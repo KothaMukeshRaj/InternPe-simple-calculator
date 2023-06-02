@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+    <div class="card">
+        <div class="logo">
+            <img src="iron.png" alt=" Logo">
+        </div>
+        <div class="text"><bold>
+            <i>SIMPLE CALCULATOR</i>
+        </bold></div>
+    </div>
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+            <button onclick="clearResult()">C</button>
+            <button onclick="deleteLastChar()">&#9003;</button>
+            <button onclick="addToResult('%')">%</button>
+            <button onclick="addToResult('/')">/</button>
+            <button onclick="addToResult('7')">7</button>
+            <button onclick="addToResult('8')">8</button>
+            <button onclick="addToResult('9')">9</button>
+            <button onclick="addToResult('*')">*</button>
+            <button onclick="addToResult('4')">4</button>
+            <button onclick="addToResult('5')">5</button>
+            <button onclick="addToResult('6')">6</button>
+            <button onclick="addToResult('-')">-</button>
+            <button onclick="addToResult('1')">1</button>
+            <button onclick="addToResult('2')">2</button>
+            <button onclick="addToResult('3')">3</button>
+            <button onclick="addToResult('+')">+</button>
+            <button onclick="addToResult('00')">00</button>
+            <button onclick="addToResult('0')">0</button>
+            <button onclick="addToResult('.')">.</button>
+
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
